@@ -6,18 +6,17 @@ type Props = {};
 
 const Personality = (props: Props) => {
   return (
-    <Card title="Personality">
+    <Card title="Personality(บุคลิกภาพ)">
       <div>
-        <p className="text-lg">Adventurer (ISFP)</p>
-        <p className="pb-2">
-          Adventurers are flexible and charming, always ready to explore and
-          experience something new.
+        <p className="text-lg text-zinc-800">ขี้โมโห</p>
+        <p className="pb-2 text-zinc-800">
+        ขี้โมโห โวยวายเหมือนเด็กผู้ชาย ชื่นชอบการต่อสู้ที่มีความรุนแรง ในฉบับภาพยนตร์ของ “เดอะพาวเวอร์พัฟฟ์เกิลส์” 
         </p>
         <div className="flex gap-1">
-          <Badge>INTROVERTED</Badge>
-          <Badge>OBSERVANT</Badge>
-          <Badge>FEELING</Badge>
-          <Badge>PROSPECTING</Badge>
+          <Badge>Angry</Badge>
+          <Badge>Introverted</Badge>
+          <Badge>frantic</Badge>
+          <Badge>Annoying</Badge>
         </div>
       </div>
     </Card>
